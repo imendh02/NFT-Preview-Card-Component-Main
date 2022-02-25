@@ -26,7 +26,7 @@ body {
     left:50%;
     transform: translate(-50%,-50%);
     flex-direction:column;
-    width: 330px;
+    width: 350px;
     border-radius: 8px;
     padding: 20px;
 }
@@ -51,16 +51,17 @@ body {
 }
 .card-image .image1{
     width: 100%;
-    height: 280px;
+    height: 300px;
     border-radius: 8px;
 }
 .card-image div:hover {
     opacity: 1;
     cursor: pointer;
 }
-.card-text h2 {
+.card-text h1 {
     color:var(--white);
     margin:15px 0 15px 0;
+    font-size: 23px;
 }
 .card-text p {
     color:var(--Soft-blue);
@@ -88,7 +89,8 @@ body {
 .card-text .avatar {
     display: flex;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 17px;
+    margin-bottom: 10px;
 }
 .card-text .avatar img{
     width: 10%;
